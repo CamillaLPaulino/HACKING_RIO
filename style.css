@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;600;700;800&family=Ubuntu:wght@400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'League Spartan';
+}
+
+body {
+    background-color: #333355;
+}
+
+#box {
+    background-color: rgba(0, 0, 0, 0.699);
+    color: white;
+    width: 100vw;
+    height: 100vh;
+}
+
+h1 {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 42pt;
+}
+
+section form {
+    position: absolute;
+    top: 48%;
+    left: 42%;
+    transform: translate(-50%, -50%);
+    font-size: 22pt;
+    font-weight: bold;
+}
+
+form input[type=text], input[type=password] {
+    width: 135%;
+    height: 40px;
+    margin: 20px 0px;
+    text-indent: 10px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: black;
+    border: 3px solid rgb(25, 40, 182);
+    border-radius: 8px;
+}
+
+img#olho {
+    width: 30px;
+    position: absolute;
+    top: 74%;
+    left: 125%;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    position: absolute;
+    top: 67%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 14pt;
+    padding: 12px;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+a#cadastro {
+    left: 35%;
+}
+
+a#esqueciSenha {
+    left: 70%;
+}
+
+a:hover {
+    background-color: white;
+    color: black;
+    transition: background-color 0.5s ease;
+}
+
+footer {
+    position: absolute;
+    top: 87%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+footer p:first-child {
+    text-align: center;
+    margin: 10px 0px;
+    color: rgb(248, 217, 38);
+}

@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;600;700;800&family=Ubuntu:wght@400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'League Spartan';
+    background-color: #a5a5c8;
+}
+
+.container {
+    margin-top: 25vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.pasta {
+    background-color: #333355;
+    color: white;
+    width: 175px;
+    height: 150px;
+    line-height: 150px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.pasta:hover, .licoes:hover {
+    background-color: #333355ef;
+    transition: background 0.3s ease;
+}
+
+.licoes {
+    background-color: #333355;
+    color: white;
+    width: 175px;
+    height: 150px;
+    line-height: 150px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+#projetctFolder {
+    text-decoration: none;
+    color: white;
+}
+
+#learnedLessons {
+    text-decoration: none;
+    color: white;
+}
+
+#backLink {
+    text-decoration: none;
+    background-color: rgba(0, 0, 255, 0.579);
+    color: white;
+    padding: 20px 40px;
+    border-radius: 10px;
+}
+
+.center {
+    text-align: center;
+    margin-top: 80px;
+}
